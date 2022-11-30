@@ -52,6 +52,10 @@ app.get('/',(req,res)=>{
     
 })
 
+app.get('/index',(req,res)=>{
+res,send("HI MUTEB");
+})
+
 
 
 
