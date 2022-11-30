@@ -1,5 +1,5 @@
 const express=require("express");
-const mysql=require("mysql");
+
 const session=require("express-session");
 const mySQLStore=require("express-mysql-session")(session);
 var oc = require('orthanc-client');
@@ -10,7 +10,7 @@ var fs = require('fs');
 
 
 
-const connect=require('./db.js');
+
 const { isArrayBuffer } = require("util/types");
 
 
